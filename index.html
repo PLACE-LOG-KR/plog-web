@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>플레이스로그 PLOG — 함께 쌓는 우리만의 장소 기록</title>
+<meta name="description" content="친구·모임과 함께 다녀온 장소를 기록하고, 리뷰와 사진으로 나누는 장소 기록 앱 플레이스로그(PLOG).">
+<link rel="icon" href="/assets/favicon.png">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Pretendard,-apple-system,sans-serif;color:#000;word-break:keep-all;
+  background:linear-gradient(170deg,#E3F4FD 0%,#F4FAFE 40%,#fff 100%);min-height:100vh}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+header{display:flex;align-items:center;gap:10px;padding:24px 0}
+header img{width:36px;height:36px;border-radius:9px}
+header b{font-size:22px;font-weight:800;letter-spacing:-.02em}
+.hero>*{min-width:0}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;padding:48px 0 72px}
+h1{font-size:48px;font-weight:800;line-height:1.22;letter-spacing:-.04em}
+.lead{font-size:19px;color:#5F6B73;margin-top:20px;line-height:1.6;letter-spacing:-.02em}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}
+.tags span{background:#fff;border:1.5px solid #000;border-radius:18px;padding:6px 14px;font-weight:600;font-size:15px}
+.soon{margin-top:28px;font-size:15px;color:#5F6B73}
+.shots{display:flex;justify-content:center;gap:16px}
+.shots img{width:44%;max-width:220px;border-radius:28px;border:7px solid #111;box-shadow:0 18px 40px rgba(3,80,130,.22)}
+.shots img:nth-child(2){margin-top:48px}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding-bottom:80px}
+.card{background:#fff;border-radius:20px;padding:24px;box-shadow:0 4px 18px rgba(3,80,130,.08)}
+.card h3{font-size:19px;font-weight:700;letter-spacing:-.02em}
+.card p{font-size:15px;color:#5F6B73;margin-top:8px;line-height:1.6}
+footer{border-top:1px solid #E0E0E0;background:#fff;padding:32px 0 48px;font-size:14px;color:#757575;line-height:1.9}
+footer nav{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:12px;color:#000;font-weight:600}
+footer nav a{text-decoration:none}
+@media(max-width:760px){
+  .hero{grid-template-columns:1fr;padding-top:16px}
+  h1{font-size:34px}
+  .features{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><img src="/assets/icon-192.png" alt=""><b>PLOG</b></header>
+  <section class="hero">
+    <div>
+      <h1>우리가 아는 좋은 곳,<br>함께 기록해요</h1>
+      <p class="lead">플레이스로그(PLOG)는 친구·모임과 함께 다녀온 장소를 그룹으로 모으고, 리뷰와 사진으로 나누는 장소 기록 앱입니다.</p>
+      <div class="tags"><span>#또갈집</span><span>#부산</span><span>#노트북하기좋은카페</span></div>
+      <p class="soon">Google Play · App Store 출시 준비 중</p>
+    </div>
+    <div class="shots">
+      <img src="/assets/01-home.jpg" alt="PLOG 홈 화면">
+      <img src="/assets/07-map-busan.jpg" alt="PLOG 지도 화면">
+    </div>
+  </section>
+  <section class="features">
+    <div class="card"><h3>주제마다 그룹 하나씩</h3><p>맛집, 호텔, 여행 기록까지 원하는 주제로 그룹을 만들어 함께 관리하세요.</p></div>
+    <div class="card"><h3>태그로 정리하고 지도로 찾기</h3><p>#부산 같은 지역 태그나 우리 그룹만의 태그로 걸러 원하는 장소만 지도에 띄워요.</p></div>
+    <div class="card"><h3>사진과 리뷰로 공유</h3><p>큐레이터 평점과 크루 평점을 나눠, 그룹 멤버들의 리뷰를 장소마다 모아 봐요.</p></div>
+  </section>
+</div>
+<footer>
+  <div class="wrap">
+    <nav>
+      <a href="/terms/">이용약관</a>
+      <a href="/privacy/"><b>개인정보처리방침</b></a>
+      <a href="/location/">위치기반서비스 이용약관</a>
+      <a href="/community/">커뮤니티 운영정책</a>
+    </nav>
+    <div>플레이스로그 · 문의 <a href="mailto:placelogkorea@gmail.com">placelogkorea@gmail.com</a></div>
+    <div>© 2026 PLOG</div>
+  </div>
+</footer>
+</body>
+</html>
