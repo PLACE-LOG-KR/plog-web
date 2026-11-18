@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [{
+      "appIDs": ["MAL84YHTL7.com.plog.plogApp"],
+      "components": [
+        { "/": "/g/*" },
+        { "/": "/r/*" },
+        { "/": "/u/*" }
+      ]
+    }]
+  }
+}
