@@ -20,6 +20,10 @@
   var path = appPath(location.pathname.split("/")[1], query.get("id"), query.get("g"));
   if (!path) return;
 
+  if (/KAKAOTALK/i.test(navigator.userAgent) && /iPhone|iPad|iPod/.test(navigator.userAgent)) {
+    location.href = "kakaotalk://web/openExternal?url=" + encodeURIComponent(location.href);
+  }
+
   var button = document.getElementById("open-app");
   var notice = document.getElementById("app-missing");
   button.hidden = false;
