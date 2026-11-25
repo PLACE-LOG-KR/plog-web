@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.plog.plog_app",
+    "sha256_cert_fingerprints": ["A6:1D:6C:A7:F0:1A:10:4A:BE:EB:3B:67:C5:C6:77:79:22:3C:3F:3C:1A:86:2E:92:CB:26:48:C0:21:51:21:52"]
+  }
+}]
